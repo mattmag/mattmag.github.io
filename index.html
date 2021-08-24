@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3b3b3b">
+    <meta name="msapplication-TileColor" content="#ffd700">
+    <meta name="theme-color" content="#ffd700">
+    <meta charset="UTF-8">
+    <style type="text/css">
+      :root {
+        --logo-size: 20vh;
+        --background-color: #1d1d1d;
+        --logo-color: #323232;
+        --logo-hover: #595959;
+        --logo-shadow: #404040;
+      }
+      body {
+        background:var(--background-color);
+      }
+      #logocontainer {
+        width:var(--logo-size);
+        height:var(--logo-size);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #logo:hover #mmpath {
+        fill: var(--logo-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="logocontainer">
+      <a href="https://github.com/mattmag/">
+        <svg id="logo" width="100%" height="100%" shape-rendering="crispEdges" viewBox="0 0 72.826 72.66" version="1.1"  xmlns="http://www.w3.org/2000/svg">
+          <g transform="translate(4.4952e-5 .049607)">
+            <g id="shadowpath" fill="var(--logo-shadow)" transform="matrix(1.0018 0 0 1.0009 -9.3423 -7.9773)">
+              <path d="m9.3256 50.221 3.9652 3.9687h17.183v-25.135l-3.9652-3.9687v25.135z"/>
+              <path d="m43.691 42.283 3.9652 3.9687 13.217-13.229v-7.9375z"/>
+              <path d="m9.3256 76.679 3.9652 3.9687 19.826-1e-6 14.539-14.552-3.9652-3.9687-14.539 14.552z"/>
+              <path d="m58.23 76.679 3.9652 3.9687h19.826v-68.792l-3.9652-3.9687v68.792z"/>
+            </g>
+            <path id="mmpath" fill="var(--logo-color)" d="m-4.4914e-5 42.289v-42.371h19.862l14.565 14.565 14.565-14.565h19.862v68.853h-19.862l-14.565-14.565-14.565 14.565h-19.862v-17.213h17.213l17.213-17.213 17.213 17.213v-34.427l-17.213 17.213-17.213-17.213v25.158z"/>
+          </g>
+        </svg>
+      </a>
+    </div>
+  </body>
+</html>
